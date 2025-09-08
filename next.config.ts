@@ -1,4 +1,5 @@
 import type { NextConfig } from "next";
+import Image from "next/image";
 
 const nextConfig: NextConfig = {
   output: "export",
@@ -7,6 +8,7 @@ const nextConfig: NextConfig = {
     unoptimized: true,
   },
   distDir: "out",
+  assetPrefix: process.env.NODE_ENV === "production" ? "/SotoMbahReso" : "",
 };
 
 export default nextConfig;
