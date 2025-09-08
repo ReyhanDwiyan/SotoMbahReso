@@ -40,7 +40,7 @@ export default function TentangPage() {
             </div>
 
             <div className="space-y-6">
-              <img src="./Foto1.jpg" alt="Pak Budi di dapur" className="w-full rounded-lg shadow-lg" />
+              <img src="/SotoMbahReso/Foto1.jpg" alt="Pak Budi di dapur" className="w-full rounded-lg shadow-lg" />
             </div>
           </div>
         </div>

@@ -14,7 +14,7 @@ export default function HomePage() {
       <section className="relative h-[600px] flex items-center justify-center bg-gradient-to-r from-primary/10 to-accent/10">
         <div className="absolute inset-0 bg-black/20"></div>
         <img
-          src="./steaming-bowl-of-indonesian-soto-soup-with-herbs-a.png"
+          src="/SotoMbahReso/steaming-bowl-of-indonesian-soto-soup-with-herbs-a.png"
           alt="Soto Hangat"
           className="absolute inset-0 w-full h-full object-cover"
         />
@@ -111,45 +111,45 @@ export default function HomePage() {
             </Link>
 
             <Link href="https://gofood.link/a/QZudouL" target="_blank" rel="noopener noreferrer" className="block">
-            <Card className="overflow-hidden border-border hover:shadow-lg transition-shadow">
-              <img src="./SotoSapi.jpg" alt="Soto Daging" className="w-full h-48 object-cover" />
-              <CardContent className="p-6">
-                <h3 className="text-xl font-semibold mb-2 text-foreground">Soto Sapi</h3>
-                <p className="text-muted-foreground mb-3">Daging sapi pilihan dengan kuah yang kaya rasa</p>
-                <div className="flex justify-between items-center">
-                  <span className="text-2xl font-bold text-primary">Rp20.000</span>
-                  <div className="flex items-center text-yellow-500">
-                    <Star className="h-4 w-4 fill-current" />
-                    <Star className="h-4 w-4 fill-current" />
-                    <Star className="h-4 w-4 fill-current" />
-                    <Star className="h-4 w-4 fill-current" />
-                    <Star className="h-4 w-4 fill-current" />
+              <Card className="overflow-hidden border-border hover:shadow-lg transition-shadow">
+                <img src="./SotoSapi.jpg" alt="Soto Daging" className="w-full h-48 object-cover" />
+                <CardContent className="p-6">
+                  <h3 className="text-xl font-semibold mb-2 text-foreground">Soto Sapi</h3>
+                  <p className="text-muted-foreground mb-3">Daging sapi pilihan dengan kuah yang kaya rasa</p>
+                  <div className="flex justify-between items-center">
+                    <span className="text-2xl font-bold text-primary">Rp20.000</span>
+                    <div className="flex items-center text-yellow-500">
+                      <Star className="h-4 w-4 fill-current" />
+                      <Star className="h-4 w-4 fill-current" />
+                      <Star className="h-4 w-4 fill-current" />
+                      <Star className="h-4 w-4 fill-current" />
+                      <Star className="h-4 w-4 fill-current" />
+                    </div>
                   </div>
-                </div>
-              </CardContent>
-            </Card>
+                </CardContent>
+              </Card>
             </Link>
 
             <Link href="https://gofood.link/a/QZudouL" target="_blank" rel="noopener noreferrer" className="block">
-            <Card className="overflow-hidden border-border hover:shadow-lg transition-shadow">
-              <img src="./SateParu.jpg" alt="Soto Babat" className="w-full h-48 object-cover" />
-              <CardContent className="p-6">
-                <h3 className="text-xl font-semibold mb-2 text-foreground">Sate Paru</h3>
-                <p className="text-muted-foreground mb-3">Sate paru yang empuk dengan bumbu rempah yang khas</p>
-                <div className="flex justify-between items-center">
-                  <span className="text-2xl font-bold text-primary">Rp11.000</span>
-                  <div className="flex items-center text-yellow-500">
-                    <Star className="h-4 w-4 fill-current" />
-                    <Star className="h-4 w-4 fill-current" />
-                    <Star className="h-4 w-4 fill-current" />
-                    <Star className="h-4 w-4 fill-current" />
-                    <Star className="h-4 w-4 fill-current" />
+              <Card className="overflow-hidden border-border hover:shadow-lg transition-shadow">
+                <img src="./SateParu.jpg" alt="Soto Babat" className="w-full h-48 object-cover" />
+                <CardContent className="p-6">
+                  <h3 className="text-xl font-semibold mb-2 text-foreground">Sate Paru</h3>
+                  <p className="text-muted-foreground mb-3">Sate paru yang empuk dengan bumbu rempah yang khas</p>
+                  <div className="flex justify-between items-center">
+                    <span className="text-2xl font-bold text-primary">Rp11.000</span>
+                    <div className="flex items-center text-yellow-500">
+                      <Star className="h-4 w-4 fill-current" />
+                      <Star className="h-4 w-4 fill-current" />
+                      <Star className="h-4 w-4 fill-current" />
+                      <Star className="h-4 w-4 fill-current" />
+                      <Star className="h-4 w-4 fill-current" />
+                    </div>
                   </div>
-                </div>
-              </CardContent>
-            </Card>
-          </Link>
-        </div>
+                </CardContent>
+              </Card>
+            </Link>
+          </div>
 
           <div className="text-center">
             <Button asChild size="lg" className="bg-primary hover:bg-primary/90">
@@ -265,17 +265,17 @@ export default function HomePage() {
             </div>
 
             <div className="relative w-full h-96">
-                  <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63319.23262599244!2d107.541934!3d-6.8729776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e1e5e7b6e8e3%3A0x7e4e6c7e6b7e6e7e!2sJl.%20Jend.%20Sudirman%20No.114%2C%20Baros%2C%20Kec.%20Cimahi%20Tengah%2C%20Kota%20Cimahi%2C%20Jawa%20Barat%2040521!5e0!3m2!1sid!2sid!4v1718000000000!5m2!1sid!2sid"
-                  width="100%"
-                  height="384"
-                  style={{ border: 0 }}
-                  allowFullScreen={true}
-                  loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
-                  className="w-full h-96"
-                  />
-              </div>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63319.23262599244!2d107.541934!3d-6.8729776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e1e5e7b6e8e3%3A0x7e4e6c7e6b7e6e7e!2sJl.%20Jend.%20Sudirman%20No.114%2C%20Baros%2C%20Kec.%20Cimahi%20Tengah%2C%20Kota%20Cimahi%2C%20Jawa%20Barat%2040521!5e0!3m2!1sid!2sid!4v1718000000000!5m2!1sid!2sid"
+                width="100%"
+                height="384"
+                style={{ border: 0 }}
+                allowFullScreen={true}
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                className="w-full h-96"
+              />
+            </div>
           </div>
         </div>
       </section>
