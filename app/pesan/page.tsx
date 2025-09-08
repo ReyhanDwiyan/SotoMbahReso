@@ -55,7 +55,7 @@ export default function PesanPage() {
             {/* Phone Order */}
             <Card className="p-8 border-border hover:shadow-lg transition-shadow">
               <CardContent className="pt-0 text-center">
-                <img src="/Gofood-Emblem.png" alt="Gofood Emblem" className="w-30 h-16 mx-auto mb-6" />
+                <img src="./Gofood-Emblem.png" alt="Gofood Emblem" className="w-30 h-16 mx-auto mb-6" />
                 <h3 className="text-2xl font-bold text-foreground mb-4">Pesan via GoFood</h3>
                 <p className="text-muted-foreground mb-6">
                   Pesan melalui aplikasi GoFood untuk pengantaran cepat dan mudah.
@@ -124,7 +124,7 @@ export default function PesanPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <Card className="overflow-hidden border-border">
-              <img src="/indonesian-soto-ayam-chicken-soup-with-clear-broth.png" alt="Soto Ayam" className="w-full h-48 object-cover" />
+              <img src="./indonesian-soto-ayam-chicken-soup-with-clear-broth.png" alt="Soto Ayam" className="w-full h-48 object-cover" />
               <CardContent className="p-6 text-center">
                 <h3 className="text-xl font-semibold text-foreground mb-2">Soto Ayam</h3>
                 <p className="text-2xl font-bold text-primary mb-3">Rp.000</p>
@@ -133,7 +133,7 @@ export default function PesanPage() {
             </Card>
 
             <Card className="overflow-hidden border-border">
-              <img src="/indonesian-soto-daging-beef-soup-with-rich-broth.png" alt="Soto Daging" className="w-full h-48 object-cover" />
+              <img src="./indonesian-soto-daging-beef-soup-with-rich-broth.png" alt="Soto Daging" className="w-full h-48 object-cover" />
               <CardContent className="p-6 text-center">
                 <h3 className="text-xl font-semibold text-foreground mb-2">Soto Daging</h3>
                 <p className="text-2xl font-bold text-primary mb-3">Rp20.000</p>
@@ -142,7 +142,7 @@ export default function PesanPage() {
             </Card>
 
             <Card className="overflow-hidden border-border">
-              <img src="/indonesian-soto-babat-tripe-soup-with-spices.png" alt="Soto Babat" className="w-full h-48 object-cover" />
+              <img src="./indonesian-soto-babat-tripe-soup-with-spices.png" alt="Soto Babat" className="w-full h-48 object-cover" />
               <CardContent className="p-6 text-center">
                 <h3 className="text-xl font-semibold text-foreground mb-2">Soto Babat</h3>
                 <p className="text-2xl font-bold text-primary mb-3">Rp22.000</p>

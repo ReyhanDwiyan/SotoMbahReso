@@ -159,7 +159,7 @@ export default function MenuPage() {
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {category.items.map((item, itemIndex) => (
                   <Card key={itemIndex} className="overflow-hidden border-border hover:shadow-lg transition-shadow">
-                    <img src={item.image || "/placeholder.svg"} alt={item.name} className="w-full h-48 object-cover" />
+                    <img src={item.image || "./placeholder.svg"} alt={item.name} className="w-full h-48 object-cover" />
                     <CardContent className="p-6">
                       <div className="flex justify-between items-start mb-3">
                         <h3 className="text-xl font-semibold text-foreground">{item.name}</h3>

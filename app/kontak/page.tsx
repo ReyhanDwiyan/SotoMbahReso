@@ -83,7 +83,7 @@ export default function KontakPage() {
                   <CardContent className="pt-0">
                   <div className="flex items-start space-x-4">
                     <img
-                    src="/gofood-logo.png"
+                    src="./gofood-logo.png"
                     alt="GoFood"
                     className="h-6 w-6 mt-1 flex-shrink-0 rounded"
                     />

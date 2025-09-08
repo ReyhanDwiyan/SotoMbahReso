@@ -88,7 +88,7 @@ export default function GaleriPage() {
                 className="group relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300"
               >
                 <img
-                  src={image.src || "/placeholder.svg"}
+                  src={image.src || "./placeholder.svg"}
                   alt={image.alt}
                   className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
                 />

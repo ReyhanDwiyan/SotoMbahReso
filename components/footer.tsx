@@ -9,7 +9,7 @@ export function Footer() {
           {/* Brand */}
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
-              <img src="/logo.png" alt="Soto Mbah Reso" className="h-10" />
+              <img src="./logo.png" alt="Soto Mbah Reso" className="h-10" />
               <span className="text-xl font-bold text-foreground">Soto Mbah Reso</span>
             </div>
             <p className="text-muted-foreground mb-4">
@@ -17,7 +17,7 @@ export function Footer() {
               higienis, dan ramah di kantong.
             </p>
             <div className="flex items-center space-x-2 text-muted-foreground">
-              <img src="/gofood-logo.png" alt="Soto Mbah Reso" className="h-5 w-5" />
+              <img src="./gofood-logo.png" alt="Soto Mbah Reso" className="h-5 w-5" />
               <span>Soto Seger Boyolali Mbah Reso</span>
             </div>
           </div>

@@ -14,7 +14,7 @@ export default function HomePage() {
       <section className="relative h-[600px] flex items-center justify-center bg-gradient-to-r from-primary/10 to-accent/10">
         <div className="absolute inset-0 bg-black/20"></div>
         <img
-          src="/steaming-bowl-of-indonesian-soto-soup-with-herbs-a.png"
+          src="./steaming-bowl-of-indonesian-soto-soup-with-herbs-a.png"
           alt="Soto Hangat"
           className="absolute inset-0 w-full h-full object-cover"
         />
@@ -92,7 +92,7 @@ export default function HomePage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
             <Link href="https://gofood.link/a/QZudouL" target="_blank" rel="noopener noreferrer" className="block">
               <Card className="overflow-hidden border-border hover:shadow-lg transition-shadow cursor-pointer">
-                <img src="/SotoAyam.jpg" alt="Soto Ayam" className="w-full h-48 object-cover" />
+                <img src="./SotoAyam.jpg" alt="Soto Ayam" className="w-full h-48 object-cover" />
                 <CardContent className="p-6">
                   <h3 className="text-xl font-semibold mb-2 text-foreground">Soto Ayam</h3>
                   <p className="text-muted-foreground mb-3">Soto khas dengan kuah bening dan ayam empuk</p>
@@ -112,7 +112,7 @@ export default function HomePage() {
 
             <Link href="https://gofood.link/a/QZudouL" target="_blank" rel="noopener noreferrer" className="block">
             <Card className="overflow-hidden border-border hover:shadow-lg transition-shadow">
-              <img src="/SotoSapi.jpg" alt="Soto Daging" className="w-full h-48 object-cover" />
+              <img src="./SotoSapi.jpg" alt="Soto Daging" className="w-full h-48 object-cover" />
               <CardContent className="p-6">
                 <h3 className="text-xl font-semibold mb-2 text-foreground">Soto Sapi</h3>
                 <p className="text-muted-foreground mb-3">Daging sapi pilihan dengan kuah yang kaya rasa</p>
@@ -132,7 +132,7 @@ export default function HomePage() {
 
             <Link href="https://gofood.link/a/QZudouL" target="_blank" rel="noopener noreferrer" className="block">
             <Card className="overflow-hidden border-border hover:shadow-lg transition-shadow">
-              <img src="/SateParu.jpg" alt="Soto Babat" className="w-full h-48 object-cover" />
+              <img src="./SateParu.jpg" alt="Soto Babat" className="w-full h-48 object-cover" />
               <CardContent className="p-6">
                 <h3 className="text-xl font-semibold mb-2 text-foreground">Sate Paru</h3>
                 <p className="text-muted-foreground mb-3">Sate paru yang empuk dengan bumbu rempah yang khas</p>
