@@ -1,5 +1,4 @@
 import type { NextConfig } from "next";
-import Image from "next/image";
 
 const nextConfig: NextConfig = {
   output: "export",
@@ -9,6 +8,8 @@ const nextConfig: NextConfig = {
   },
   distDir: "out",
   assetPrefix: process.env.NODE_ENV === "production" ? "/SotoMbahReso" : "",
+  // Add this to allow importing images in static exports
+  transpilePackages: ['next'],
 };
 
 export default nextConfig;

@@ -73,8 +73,12 @@ export default function GaleriPage() {
       {/* Header */}
       <section className="py-16 bg-primary text-primary-foreground">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">Galeri Kami</h1>
-          <p className="text-xl opacity-90">Lihat suasana hangat dan kelezatan soto kami</p>
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">
+            Galeri Kami
+          </h1>
+          <p className="text-xl opacity-90">
+            Lihat suasana hangat dan kelezatan soto kami
+          </p>
         </div>
       </section>
 
@@ -88,18 +92,18 @@ export default function GaleriPage() {
                 className="group relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300"
               >
                 <div className="relative w-full h-64">
-                  <Image
+                  {/* Using img tag instead of Image component for static export */}
+                  <img
                     src={image.src || "/placeholder.svg"}
                     alt={image.alt}
-                    fill
-                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                    className="object-cover group-hover:scale-105 transition-transform duration-300"
-                    unoptimized
+                    className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                   />
                 </div>
                 <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
                   <div className="p-4 text-white">
-                    <h3 className="font-semibold text-lg">{image.alt}</h3>
+                    <h3 className="font-semibold text-lg">
+                      {image.alt}
+                    </h3>
                   </div>
                 </div>
               </div>
@@ -111,9 +115,12 @@ export default function GaleriPage() {
       {/* Call to Action */}
       <section className="py-16 bg-muted">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-bold text-foreground mb-4">Rasakan Sendiri Kelezatannya</h2>
+          <h2 className="text-3xl font-bold text-foreground mb-4">
+            Rasakan Sendiri Kelezatannya
+          </h2>
           <p className="text-lg text-muted-foreground mb-8">
-            Kunjungi warung kami dan nikmati pengalaman kuliner yang tak terlupakan
+            Kunjungi warung kami dan nikmati pengalaman kuliner yang tak
+            terlupakan
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
