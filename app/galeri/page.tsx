@@ -1,5 +1,6 @@
 import { Navigation } from "@/components/navigation"
 import { Footer } from "@/components/footer"
+import Image from "next/image"
 
 const galleryImages = [
   {
@@ -28,41 +29,40 @@ const galleryImages = [
   },
   {
     src: "/Foto7.jpg",
-    alt: "",
+    alt: "Foto menu",
   },
   {
     src: "/Foto8.jpg",
-    alt: "",
+    alt: "Foto menu",
   },
   {
     src: "/Foto9.jpg",
-    alt: "",
+    alt: "Foto menu",
   },
   {
     src: "/Foto10.jpg",
-    alt: "",
+    alt: "Foto menu",
   },
   {
     src: "/Foto11.jpg",
-    alt: "",
+    alt: "Foto menu",
   },
   {
     src: "/Foto12.jpg",
-    alt: "",
+    alt: "Foto menu",
   },
   {
     src: "/Foto13.jpg",
-    alt: "",
+    alt: "Foto menu",
   },
   {
     src: "/Foto14.jpg",
-    alt: "",
+    alt: "Foto menu",
   },
   {
     src: "/Foto15.jpg",
-    alt: "",
+    alt: "Foto menu",
   },
-
 ]
 
 export default function GaleriPage() {
@@ -87,14 +87,19 @@ export default function GaleriPage() {
                 key={index}
                 className="group relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300"
               >
-                <img
-                  src={image.src || "./placeholder.svg"}
-                  alt={image.alt}
-                  className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
-                />
+                <div className="relative w-full h-64">
+                  <Image
+                    src={image.src || "/placeholder.svg"}
+                    alt={image.alt}
+                    fill
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                    className="object-cover group-hover:scale-105 transition-transform duration-300"
+                    unoptimized
+                  />
+                </div>
                 <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
                   <div className="p-4 text-white">
-                    <h3 className="font-semibold text-lg"></h3>
+                    <h3 className="font-semibold text-lg">{image.alt}</h3>
                   </div>
                 </div>
               </div>
